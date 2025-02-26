@@ -1,0 +1,139 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background-color: #8B1414;
+}
+
+header {
+    height: 20vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-around;
+
+
+    h1 {
+        color: #FFFCFC;
+        text-align: center;
+    }
+
+    p {
+        color: #FFFCFC;
+        font-weight: 500;
+        text-align: center;
+    }
+}
+
+main {
+    height: 80vh;
+}
+.orelhasFinn{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+
+    img {
+        width: 15%;
+    }
+}
+
+.rostoFinn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .testaFinn{
+        width: 65%;
+        height: 8vh;
+    }
+
+}
+
+.cabecaFinn {
+    background-color: #FFFFFF;
+    width: 65%;
+    height: 77vh;
+    margin-left: 17.5%;
+}
+
+.face {
+    background-color: #FFE1C9;
+    width: 80%;
+    height: 75vh;
+    border-radius: 65%;
+    margin-left: 10%;
+    
+    img {
+        width: 88%;
+    }
+}
+
+.olhos {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 35vh;
+    
+    img {
+        width: 8%;
+    }
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    input {
+        border: solid 1.5px;
+        width: 45%;
+        height: 7vh;
+    }
+}
+
+.roupaFinn {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+
+    img {
+        width: 66%;
+    }
+}
+
+.cachecol {
+    width: 20%;
+    position: absolute;
+    left: 60%;
+    top: 32rem;
+    
+    .cima {
+        position: absolute;
+    }
+}
+
+.botao {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 25vh;
+    
+    button {
+        background-color: #115D33;
+        width: 10%;
+        height: 10vh;
+        font-weight: 700;
+        font-size: 20px;
+        color: #FFFFFF;
+        cursor: pointer;
+    }
+
+}
