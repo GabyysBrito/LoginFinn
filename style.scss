@@ -142,10 +142,21 @@ form {
 
 @media (max-width: 760px ) {
     body {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        height: 100vh;
+
+
         header {
-            height: 15vh;
+            height: 20vh;
         }
+
         main {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+
             .rostoFinn {
                 height: 3vh;
             }
@@ -172,8 +183,7 @@ form {
 
             .cachecol {
                 width: 20%;
-                top: 18rem;
-                // top: 22rem;
+                top: 26rem;
             }
 
             .botao{

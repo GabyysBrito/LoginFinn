@@ -126,8 +126,19 @@ form input {
 }
 
 @media (max-width: 760px) {
+  body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+  }
   body header {
-    height: 15vh;
+    height: 20vh;
+  }
+  body main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
   body main .rostoFinn {
     height: 3vh;
@@ -149,7 +160,7 @@ form input {
   }
   body main .cachecol {
     width: 20%;
-    top: 18rem;
+    top: 26rem;
   }
   body main .botao {
     height: 15vh;
