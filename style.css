@@ -130,30 +130,29 @@ form input {
     height: 3vh;
   }
   body main .cabecaFinn {
-    height: 28vh;
+    height: 23vh;
   }
   body main .face {
-    height: 26vh;
+    height: 22vh;
   }
   body main .face .olhos {
     height: 13vh;
   }
   body main form {
-    height: 6vh;
+    height: 1vh;
   }
   body main form input {
-    width: 70%;
+    width: 55%;
   }
   body main .cachecol {
-    border: solid red;
     width: 20%;
-    top: 22rem;
+    top: 24rem;
   }
   body main .botao {
-    border: solid red;
+    height: 15vh;
   }
   body main .botao button {
-    height: 7vh;
-    width: 30%;
+    height: 6vh;
+    width: 25%;
   }
 }/*# sourceMappingURL=style.css.map */
