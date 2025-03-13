@@ -142,6 +142,10 @@ form {
 
 @media (max-width: 760px ) {
     body {
+        header {
+            border: solid red;
+            height: 15vh;
+        }
         main {
             .rostoFinn {
                 height: 3vh;
@@ -169,7 +173,7 @@ form {
 
             .cachecol {
                 width: 20%;
-                top: 24rem;
+                top: 23rem;
             }
 
             .botao{
