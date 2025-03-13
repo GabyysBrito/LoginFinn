@@ -103,7 +103,7 @@ form input {
   width: 20%;
   position: absolute;
   left: 60%;
-  top: 32rem;
+  top: 29rem;
 }
 .cachecol .cima {
   position: absolute;
@@ -127,7 +127,6 @@ form input {
 
 @media (max-width: 760px) {
   body header {
-    border: solid red;
     height: 15vh;
   }
   body main .rostoFinn {
@@ -150,7 +149,7 @@ form input {
   }
   body main .cachecol {
     width: 20%;
-    top: 24rem;
+    top: 22rem;
   }
   body main .botao {
     height: 15vh;

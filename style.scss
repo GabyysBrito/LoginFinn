@@ -115,7 +115,7 @@ form {
     width: 20%;
     position: absolute;
     left: 60%;
-    top: 32rem;
+    top: 29rem;
     
     .cima {
         position: absolute;
@@ -143,7 +143,6 @@ form {
 @media (max-width: 760px ) {
     body {
         header {
-            border: solid red;
             height: 15vh;
         }
         main {
@@ -173,7 +172,7 @@ form {
 
             .cachecol {
                 width: 20%;
-                top: 24rem;
+                top: 22rem;
             }
 
             .botao{
