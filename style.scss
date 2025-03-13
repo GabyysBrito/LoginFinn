@@ -46,6 +46,7 @@ main {
 }
 
 .rostoFinn {
+    // border: solid red;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -58,6 +59,7 @@ main {
 }
 
 .cabecaFinn {
+    // border: solid red;
     background-color: #FFFFFF;
     width: 65%;
     height: 77vh;
@@ -136,4 +138,50 @@ form {
         cursor: pointer;
     }
 
+}
+
+@media (max-width: 760px ) {
+    body {
+        main {
+            .rostoFinn {
+                height: 3vh;
+            }
+
+            .cabecaFinn {
+                height: 28vh;
+            }
+
+            .face {
+                height: 26vh;
+
+                .olhos {
+                    height: 13vh;
+                }
+            }
+
+            form{
+                height: 6vh;
+                
+                input {
+                    width: 70%;
+                }
+            }
+
+            .cachecol {
+                border: solid red;
+                width: 20%;
+                top: 22rem;
+            }
+
+            .botao{
+                border: solid red;
+
+                button {
+                    height: 7vh;
+                    width: 30%;
+                }
+            }
+
+        }
+    }
 }
