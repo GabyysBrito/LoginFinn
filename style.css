@@ -148,10 +148,6 @@ form input {
   body main form input {
     width: 55%;
   }
-  body main .cachecol {
-    width: 20%;
-    top: 33rem;
-  }
   body main .botao {
     height: 15vh;
   }
