@@ -99,16 +99,6 @@ form input {
   width: 66%;
 }
 
-.cachecol {
-  width: 20%;
-  position: absolute;
-  left: 60%;
-  top: 42rem;
-}
-.cachecol .cima {
-  position: absolute;
-}
-
 .botao {
   display: flex;
   justify-content: center;
